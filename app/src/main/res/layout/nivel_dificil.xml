@@ -1,0 +1,205 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000"
+    tools:context="com.mycompany.memorytest.NivelDificil">
+
+    <LinearLayout
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_margin="2dp"
+            android:id="@+id/voltar"
+            android:text="Voltar"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/botao"/>
+
+        <Button
+            android:text="16 Cartas"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/shapeinverse"/>
+
+        <Button
+            android:id="@+id/reiniciar"
+            android:layout_margin="2dp"
+            android:text="Reiniciar"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/botao"/>
+
+    </LinearLayout>
+
+
+
+    <TableLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="7dp">
+
+        <TableRow
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent">
+            <ImageButton
+                android:onClick="click"
+                android:id="@+id/bt1"
+                android:background="@drawable/snoop_clown"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"/>
+
+            <ImageButton
+                android:onClick="click"
+                android:id="@+id/bt2"
+                android:background="@drawable/snoop_clown"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"/>
+
+            <ImageButton
+                android:onClick="click"
+                android:id="@+id/bt3"
+                android:background="@drawable/snoop_clown"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"/>
+
+            <ImageButton
+                android:onClick="click"
+                android:id="@+id/bt4"
+                android:background="@drawable/snoop_clown"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent">
+            <ImageButton
+                android:onClick="click"
+                android:id="@+id/bt5"
+                android:background="@drawable/snoop_clown"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"/>
+
+            <ImageButton
+                android:onClick="click"
+                android:id="@+id/bt6"
+                android:background="@drawable/snoop_clown"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"/>
+
+            <ImageButton
+                android:onClick="click"
+                android:id="@+id/bt7"
+                android:background="@drawable/snoop_clown"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"/>
+
+            <ImageButton
+                android:onClick="click"
+                android:id="@+id/bt8"
+                android:background="@drawable/snoop_clown"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent">
+            <ImageButton
+                android:onClick="click"
+                android:id="@+id/bt9"
+                android:background="@drawable/snoop_clown"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"/>
+
+            <ImageButton
+                android:onClick="click"
+                android:id="@+id/bt10"
+                android:background="@drawable/snoop_clown"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"/>
+
+            <ImageButton
+                android:onClick="click"
+                android:id="@+id/bt11"
+                android:background="@drawable/snoop_clown"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"/>
+
+            <ImageButton
+                android:onClick="click"
+                android:id="@+id/bt12"
+                android:background="@drawable/snoop_clown"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent">
+            <ImageButton
+                android:onClick="click"
+                android:id="@+id/bt13"
+                android:background="@drawable/snoop_clown"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"/>
+
+            <ImageButton
+                android:onClick="click"
+                android:id="@+id/bt14"
+                android:background="@drawable/snoop_clown"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"/>
+
+            <ImageButton
+                android:onClick="click"
+                android:id="@+id/bt15"
+                android:background="@drawable/snoop_clown"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"/>
+
+            <ImageButton
+                android:onClick="click"
+                android:id="@+id/bt16"
+                android:background="@drawable/snoop_clown"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"/>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

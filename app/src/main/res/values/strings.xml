@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Memory Test</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_nivel_facil">8 Cartas</string>
+    <string name="Pontuação">Pontuaçao:</string>
+    <string name="title_activity_nivel_medio">12 Cartas</string>
+    <string name="title_activity_nivel_dificil">16 Cartas</string>
+    <string name="title_activity_nivel_hard">16 Cartas</string>
+</resources>
